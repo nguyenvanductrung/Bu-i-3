@@ -1,0 +1,111 @@
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    text-align: center;
+    white-space: nowrap; /* Giữ tất cả trên một dòng */
+    justify-content: space-around
+  }
+  
+  .icon-row i {
+    margin: 0 5px; /* Khoảng cách giữa các biểu tượng */
+  }
+  .text {
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #808080;
+     
+  }
+  i {
+    margin: 0 5px;
+  }
+  input::placeholder,
+textarea::placeholder {
+  color: #888; /* Màu chữ placeholder */
+
+  font-size: 14px; /* Kích thước chữ */
+}
+input[type="text"] {
+    width: 400px; /* Chiều rộng */
+    height: 15px; /* Chiều cao */
+    padding: 10px; /* Khoảng đệm bên trong */
+    font-size: 16px; /* Kích thước chữ */
+    border-radius: 10px; /* Bo tròn góc */
+    border: 1px solid #ccc; /* Viền */
+  }
+  /* .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    
+    margin-right: 20px;
+  } */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item {
+    margin: 0 15px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+   
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.far{
+    margin-top: 100px;
+   
+}
+.around {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Arial', sans-serif; /* Thay đổi phông chữ */
+    font-size: 24px; /* Thay đổi kích thước chữ */
+    font-weight: lighter; /* In đậm */
+    color: #333; /* Thay đổi màu chữ */
+   
+   ;
+}
+article{
+    display: flex;
+    justify-content:space-around;
+}
+.new_list{
+    width: 24%;
+   /* margin: 0 5px; */
+
+}
+
+.new_list img{
+    width: 80% !important;
+    margin-left: 30px;
+}
+
+.input-search{
+    border: 1px solid #808080;
+    border-radius:8px;
+}
+  
+input {
+    border: none !important;
+    outline: none !important; /* Xóa viền khi nhấn vào */
+}
+
+input:hover, input:focus {
+    border: none !important;
+    outline: none !important; 
+}
